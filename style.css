@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar */
+nav {
+    background: #4b2e83;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profile_name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contact_info {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+.topmenu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.topmenu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.topmenu a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+h2 {
+    border-bottom: 2px solid #4b2e83;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.skill-card, .project-card, .recommendation {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #fafafa;
+}
+
+/* Popup */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border: 2px solid #4b2e83;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px #333;
+    z-index: 1000;
+}
+svg {
+    width: 100px;
+    vertical-align: middle;
+    fill: currentColor;
+    animation: spin 2s linear infinite;
+    color: #4b2e83;
+    margin-right: 10px;
+}

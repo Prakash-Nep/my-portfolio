@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio - Prakash Bahadur Nepali</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav>
+  <div class="profile_name">
+    Prakash Bahadur Nepali
+    <div class="contact_info">
+      📞 9638441680 | <a href="mailto:prakashbahadurnepali@gmail.com" >prakashbahadurnepali@gmail.com</a>
+    </div>
+  </div>
+  <ul class="topmenu">
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#recommendations">Recommendations</a></li>
+  </ul>
+</nav>
+
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="intro">
+      <img src="profile.jpg" alt="Profile Image" class="profile_img">
+      <h1>Hi, I'm Prakash Bahadur Nepali! 👋</h1>
+      <p>
+        I am still a student at LJK University, currently pursuing my BCA degree. 
+        I am passionate about programming, technology, and mathematics, and 
+        I enjoy building projects that solve real-life problems.
+      </p>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      My name is <b>Prakash Bahadur Nepali</b>. I am still a student at LJK University, 
+      pursuing my BCA degree. I love learning programming languages, 
+      problem-solving in mathematics, and exploring computer science concepts.  
+      My dream is to become a skilled software developer.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skill-card">C Programming - 1.5 years</div>
+    <div class="skill-card">Python - 2 years</div>
+    <div class="skill-card">HTML - 2 years</div>
+    <div class="skill-card">CSS - 1.5 years</div>
+    <div class="skill-card">Mathematics - Talented & Strong Analytical Skills</div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Library Management System</h3>
+      <p>
+        Created a simple console-based Library Management System using C programming 
+        for managing book records, borrowing, and returns.
+      </p>
+    </div>
+    <div class="project-card">
+      <h3>Student Result Analyzer</h3>
+      <p>
+        Built a Python program that calculates student grades, 
+        averages, and generates reports based on user inputs.
+      </p>
+    </div>
+    <div class="project-card">
+      <h3>Personal Portfolio Website</h3>
+      <p>
+        Designed and developed my personal portfolio website using HTML, CSS, 
+        and JavaScript to showcase my skills and projects.
+      </p>
+    </div>
+  </section>
+
+  <!-- Recommendations -->
+  <section id="recommendations">
+    <h2>Recommendations</h2>
+    <div class="recommendation">
+      Prakash is a hardworking student with great problem-solving skills, 
+      especially in mathematics and programming. He quickly understands new concepts.
+    </div>
+    <div class="recommendation">
+      I have seen Prakash develop good coding practices during his BCA studies. 
+      He is passionate about learning and improving himself.
+    </div>
+    <div class="recommendation">
+      Prakash has shown a lot of dedication in his projects, 
+      from C programming assignments to Python applications.
+    </div>
+
+    <textarea id="new_recommendation" placeholder="Leave a recommendation..."></textarea>
+    <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+  </section>
+
+  <!-- Popup -->
+  <div id="popup" class="popup">
+    <p>Thank you for your recommendation, Prakash Bahadur Nepali appreciates it! ✅</p>
+    <button onclick="showPopup(false)">Close</button>
+  </div>
+
+  <!-- Footer with Home Icon -->
+  <footer>
+    <a href="#home">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" 
+           viewBox="0 0 24 24" stroke-width="1.5" 
+           stroke="white" width="63px">
+        <path stroke-linecap="round" stroke-linejoin="round" 
+              d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 
+              12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+      </svg>
+    </a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
